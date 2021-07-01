@@ -11,7 +11,7 @@ Click a cell to toggle its state. Click and drag to draw.
 
 You can view the app in your browser by simply opening the index.html file in the browser.
 
-# Rebuilding the project
+## Rebuilding the project
 
 Currently the project has been built and packed, and does not need to be rebuilt in order to run.
 However, if you want to set up this project for modifications and development, rebuilding is easy.
@@ -21,7 +21,7 @@ However, if you want to set up this project for modifications and development, r
 2. run `npm run start` to start the dev server or run `npm run build` to pack the project in to the
    public folder.
 
-# Implementation Notes
+## Implementation Notes
 
 I implemented everything from scratch rather than taking an existing implementation. In hindsight,
 this cost a lot of time that I could have used to implement more advanced features. Typically I take
@@ -41,7 +41,7 @@ Some features I thought about but did not have time to implement include:
 * Undo history for user edits
 * A collection of basic units, like gliders, that you can stamp on to the board
 
-# Tools and Resources
+## Tools and Resources
 
 * React
 * Typescript, Babel
